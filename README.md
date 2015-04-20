@@ -1,0 +1,2 @@
+# CricleScrollerView
+对ScrollerView进行封装，实现ScrollerView循环无缝衔接轮播
