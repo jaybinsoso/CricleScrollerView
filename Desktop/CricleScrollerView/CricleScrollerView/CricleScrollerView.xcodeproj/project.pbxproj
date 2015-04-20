@@ -15,7 +15,6 @@
 		735D89591AE4144000963A57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735D89571AE4144000963A57 /* LaunchScreen.xib */; };
 		735D89651AE4144000963A57 /* CricleScrollerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D89641AE4144000963A57 /* CricleScrollerViewTests.m */; };
 		735D89701AE4147E00963A57 /* CricleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D896F1AE4147E00963A57 /* CricleScrollViewController.m */; };
-		735D89721AE414F700963A57 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 735D89711AE414F700963A57 /* resource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		735D89641AE4144000963A57 /* CricleScrollerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricleScrollerViewTests.m; sourceTree = "<group>"; };
 		735D896E1AE4147E00963A57 /* CricleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricleScrollViewController.h; sourceTree = "<group>"; };
 		735D896F1AE4147E00963A57 /* CricleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricleScrollViewController.m; sourceTree = "<group>"; };
-		735D89711AE414F700963A57 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 				735D89521AE4144000963A57 /* Main.storyboard */,
 				735D89551AE4144000963A57 /* Images.xcassets */,
 				735D89571AE4144000963A57 /* LaunchScreen.xib */,
-				735D89711AE414F700963A57 /* resource */,
 				735D89481AE4144000963A57 /* Supporting Files */,
 			);
 			path = CricleScrollerView;
@@ -207,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735D89721AE414F700963A57 /* resource in Resources */,
 				735D89541AE4144000963A57 /* Main.storyboard in Resources */,
 				735D89591AE4144000963A57 /* LaunchScreen.xib in Resources */,
 				735D89561AE4144000963A57 /* Images.xcassets in Resources */,
@@ -428,6 +424,7 @@
 				735D896A1AE4144000963A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735D896B1AE4144000963A57 /* Build configuration list for PBXNativeTarget "CricleScrollerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +433,7 @@
 				735D896D1AE4144000963A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

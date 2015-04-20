@@ -21,18 +21,13 @@
     /**
      *  初始化轮播图片数组
      */
-    NSString *imageUrl0 = [[NSBundle mainBundle] pathForResource:@"image0" ofType:@"jpg"];
-    NSString *imageUrl1 = [[NSBundle mainBundle] pathForResource:@"image1" ofType:@"jpg"];
-    NSString *imageUrl2 = [[NSBundle mainBundle] pathForResource:@"image2" ofType:@"jpg"];
-    NSString *imageUrl3 = [[NSBundle mainBundle] pathForResource:@"image3" ofType:@"jpg"];
-    
-    UIImageView *imageView0 = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:imageUrl0]];
+    UIImageView *imageView0 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image0"]];
     imageView0.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
-    UIImageView *imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:imageUrl1]];
+    UIImageView *imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image1"]];
     imageView1.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
-    UIImageView *imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:imageUrl2]];
+    UIImageView *imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image2"]];
     imageView2.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
-    UIImageView *imageView3 = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:imageUrl3]];
+    UIImageView *imageView3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image3"]];
     imageView3.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
     
     NSArray *imageArray = [NSArray arrayWithObjects:imageView0, imageView1, imageView2, imageView3, nil];
