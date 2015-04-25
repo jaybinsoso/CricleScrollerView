@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CricleScrollViewController.h"
 
 @interface ViewController ()
 
@@ -27,15 +28,13 @@
     imageView1.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
     UIImageView *imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image2"]];
     imageView2.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
-    UIImageView *imageView3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image3"]];
-    imageView3.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
     
-    NSArray *imageArray = [NSArray arrayWithObjects:imageView0, imageView1, imageView2, imageView3, nil];
+    NSArray *imageArray = [NSArray arrayWithObjects:imageView0, imageView1, imageView2, nil];
     
     /**
      *  初始化轮播ScrollerView
      */
-    cricleScrollerView = [[CricleScrollViewController alloc] initWithFrame:CGRectMake(0.0, 100.0, self.view.bounds.size.width, 200) andImagesArray:imageArray];
+    CricleScrollViewController *cricleScrollerView = [[CricleScrollViewController alloc] initWithFrame:CGRectMake(0.0, 100.0, self.view.bounds.size.width, 200) andImagesArray:imageArray];
     [self.view addSubview:cricleScrollerView.view];
     
 }

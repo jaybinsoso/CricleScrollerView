@@ -7,12 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CricleScrollViewController.h"
 
-@interface ViewController : UIViewController{
-    CricleScrollViewController *cricleScrollerView;
-}
-
+@interface ViewController : UIViewController
 
 @end
 

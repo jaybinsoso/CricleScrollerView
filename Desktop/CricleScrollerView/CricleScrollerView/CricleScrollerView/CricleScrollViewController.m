@@ -73,7 +73,7 @@
      */
     //大于一张图片则展示翻页指示器
     if(_imageViewsDatasrc.count>1){
-        pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(257,170, 39, 37)];
+        pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width-150)/2,170, 150, 30)];
         [pageControl setNumberOfPages:_imageViewsDatasrc.count];
         [self.view addSubview:pageControl];
         
