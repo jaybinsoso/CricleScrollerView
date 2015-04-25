@@ -1,13 +1,14 @@
-# CricleScrollerView
+CricleScrollerView
+===================================
 
 Overview
-
+----------------------------------
 基于ScrollerView进行封装的控件，实现ScrollerView无缝衔接循环轮播。
 
-/Users/jaybin/Desktop/屏幕录制.mov
+![github](http://github.com/unicorn.png "github")
 
 Usage
-
+----------------------------------
 /**
  *  初始化轮播图片数组
  */
