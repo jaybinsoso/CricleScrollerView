@@ -15,6 +15,7 @@
 		735D89591AE4144000963A57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735D89571AE4144000963A57 /* LaunchScreen.xib */; };
 		735D89651AE4144000963A57 /* CricleScrollerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D89641AE4144000963A57 /* CricleScrollerViewTests.m */; };
 		735D89701AE4147E00963A57 /* CricleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735D896F1AE4147E00963A57 /* CricleScrollViewController.m */; };
+		736FFECA1B0C80E20088CCC9 /* cricleview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 736FFEC91B0C80E20088CCC9 /* cricleview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		735D89641AE4144000963A57 /* CricleScrollerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricleScrollerViewTests.m; sourceTree = "<group>"; };
 		735D896E1AE4147E00963A57 /* CricleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricleScrollViewController.h; sourceTree = "<group>"; };
 		735D896F1AE4147E00963A57 /* CricleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricleScrollViewController.m; sourceTree = "<group>"; };
+		736FFEC91B0C80E20088CCC9 /* cricleview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cricleview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				735D896E1AE4147E00963A57 /* CricleScrollViewController.h */,
 				735D896F1AE4147E00963A57 /* CricleScrollViewController.m */,
 				735D89521AE4144000963A57 /* Main.storyboard */,
+				736FFEC81B0C80E20088CCC9 /* screenshots */,
 				735D89551AE4144000963A57 /* Images.xcassets */,
 				735D89571AE4144000963A57 /* LaunchScreen.xib */,
 				735D89481AE4144000963A57 /* Supporting Files */,
@@ -122,6 +125,14 @@
 				735D89631AE4144000963A57 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		736FFEC81B0C80E20088CCC9 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				736FFEC91B0C80E20088CCC9 /* cricleview.gif */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				735D89541AE4144000963A57 /* Main.storyboard in Resources */,
 				735D89591AE4144000963A57 /* LaunchScreen.xib in Resources */,
 				735D89561AE4144000963A57 /* Images.xcassets in Resources */,
+				736FFECA1B0C80E20088CCC9 /* cricleview.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

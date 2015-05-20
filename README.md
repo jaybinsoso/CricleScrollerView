@@ -9,9 +9,7 @@ Overview
 
 Usage
 ----------------------------------
-/**
- *  初始化轮播图片数组
- */
+//初始化轮播图片数组
 UIImageView *imageView0 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image0"]];
 imageView0.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
 UIImageView *imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image1"]];
@@ -21,8 +19,6 @@ imageView2.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
 
 NSArray *imageArray = [NSArray arrayWithObjects:imageView0, imageView1, imageView2, nil];
 
-/**
- *  初始化轮播ScrollerView
- */
+//初始化轮播ScrollerView
 CricleScrollViewController *cricleScrollerView = [[CricleScrollViewController alloc] initWithFrame:CGRectMake(0.0, 100.0, self.view.bounds.size.width, 200) andImagesArray:imageArray];
 [self.view addSubview:cricleScrollerView.view];
