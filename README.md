@@ -10,7 +10,7 @@ Overview
 Usage
 ----------------------------------
 //初始化轮播图片数组<br>
-```
+``` objc
 UIImageView *imageView0 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image0"]];
 imageView0.frame = CGRectMake(0, 0, self.view.bounds.size.width, 200);
 UIImageView *imageView1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"image1"]];
@@ -22,7 +22,7 @@ NSArray *imageArray = [NSArray arrayWithObjects:imageView0, imageView1, imageVie
 ``` 
 
 //初始化轮播ScrollerView<br>
-``` 
+``` objc 
 CricleScrollViewController *cricleScrollerView = [[CricleScrollViewController alloc] initWithFrame:CGRectMake(0.0, 100.0, self.view.bounds.size.width, 200) andImagesArray:imageArray];
 [self.view addSubview:cricleScrollerView.view];
 ```
